@@ -1,15 +1,8 @@
-function pairElement(str) {
-const DNA = {
-    'A': 'T',
-    'T': 'A',
-    'C': 'G',
-    'G': 'C',
-}
-const DNA_MAS = [];
-for (let i=0; i<str.length; i++){
-DNA_MAS.push([str[i], DNA[str[i]]]);
-}
-    return DNA_MAS;
-}
+function uniteUnique(arr) {
 
-console.log(pairElement("TTGAG"));
+    const SET_ARR = new Set([...arguments].flat());
+    
+    return [...SET_ARR];
+  }
+  
+ console.log( uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]));
