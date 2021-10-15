@@ -27,7 +27,8 @@ function caesarsCipher(str) {
         L: 'Y',
         M: 'Z',
     }
-    return str.split("").map(a=>ROT13[a]!==undefined?ROT13[a]:a).join("");
+    return str.split("").map(a => ROT13[a] !== undefined ? ROT13[a] : a).join("");
 }
 
 console.table(caesarsCipher("SERR PBQR PNZC"));
+
