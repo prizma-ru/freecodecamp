@@ -7,4 +7,4 @@ function splitify(str) {
   }
   console.log(splitify("Hello World,I-am code"));
 
-  console.log('Spinal Tap Case'.replace(/\s/g,'-').toLowerCase());
+  console.log('Missing letters Passed'.replace(/\s/g,'-').toLowerCase());
