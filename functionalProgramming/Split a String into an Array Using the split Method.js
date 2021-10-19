@@ -7,4 +7,4 @@ function splitify(str) {
   }
   console.log(splitify("Hello World,I-am code"));
 
-  console.log('Missing letters Passed'.replace(/\s/g,'-').toLowerCase());
+  console.log('Roman Numeral Converter'.replace(/\s/g,'-').toLowerCase());
